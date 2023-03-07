@@ -1,0 +1,724 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 2rem;
+}
+
+button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 100;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.home-page {
+  width: 100%;
+}
+
+.home-page h1 {
+  text-align: center;
+}
+
+.button-stack {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  gap: 3rem;
+  padding-top: 3rem;
+}
+
+.workoutHomePage {
+  width: 100%;
+  text-align: center;
+}
+
+.createWorkoutPage {
+  width: 100%;
+  text-align: center;
+}
+
+.create-workout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 3rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.new-workout {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.workout-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.exercise-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.exercise-input {
+  padding: 2rem;
+  height: 3rem;
+  width: 50%;
+  align-self: flex-end;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  width: 60%;
+  align-self: center;
+  /* border: transparent; */
+  border-radius: 5px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: #efefef;
+  border-color: #000000;
+}
+
+/* onkeydown="return /[a-z]/i.test(event.key)" */
+
+.exercise-input::-webkit-calendar-picker-indicator {
+  position: absolute;
+  right: 0.2rem;
+  top: 50%;
+  transform: translateY(-75%);
+  color: black;
+}
+
+.exercise-input::placeholder {
+  transform: translateY(-10%);
+}
+
+.save-workout-btn,
+.add-exercise-btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  width: 30%;
+  align-self: center;
+  /* border: transparent; */
+  border-radius: 15px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+}
+
+.save-workout-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.own-workout-page {
+  width: 100%;
+}
+
+.own-workout-page h1 {
+  text-align: center;
+}
+
+.own-workout-buttons {
+  margin-bottom: 2rem;
+}
+
+.span-btn {
+  width: 100%;
+}
+
+/* start of own workout logging css */
+#workoutNameHeading {
+  text-align: center;
+}
+.exercise-logging {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.log-exercise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ex-name-div {
+  width: 100%;
+}
+
+.rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.note-inputs {
+  padding: 1rem;
+}
+
+.rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.time-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 0rem;
+  padding-top: 1rem;
+}
+
+.rsw-inputs {
+  padding: 0.7rem;
+  width: 22%;
+  max-width: 80px;
+}
+
+.rsw-inputs:nth-child(3) {
+  width: 35%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+/* end of own workout logging css */
+
+#logWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.log-workout-btn {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 15px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+}
+
+.workout-history-page {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#workoutHistoryHeader {
+  text-align: center;
+}
+
+.log-name {
+  font-weight: 600;
+  text-align: center;
+}
+
+.log-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 5rem;
+}
+
+.exercises {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.set-container,
+.rep-container,
+.weight-container,
+.note-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.set-heading,
+.rep-heading,
+.weight-heading,
+.note-heading {
+  font-size: 1.5rem;
+}
+
+.note-heading {
+  margin-right: 3rem;
+}
+
+.notes {
+  text-align: left;
+}
+
+.sets,
+.reps,
+.weight,
+.notes {
+  font-size: 1.5rem;
+  display: inline-block;
+  word-break: break-word;
+}
+
+.premade-workout-page,
+.size-and-strength,
+.size,
+.strength,
+.calisthenics {
+  width: 100%;
+  text-align: center;
+}
+
+.form-page {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table,
+table td,
+table tr,
+table th {
+  display: block;
+  text-align: left;
+}
+
+table th,
+table td {
+  margin: 0;
+}
+
+table td {
+  padding-left: 0;
+  word-break: break-word;
+}
+
+table thead {
+  display: none;
+}
+
+.workout-name {
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
+.exercise-list {
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.exercise-input {
+  width: 100%;
+  align-self: center;
+}
+
+#workoutName,
+#searchForm,
+#foodName,
+#calorieAmount {
+  padding: 1rem;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  text-align: center;
+  background-color: #efefef;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+#workoutName::placeholder,
+#searchForm ::placeholder,
+.exercise-input::placeholder {
+  font-size: 1.2rem;
+  opacity: 100%;
+  text-align: center;
+}
+
+#workoutName:focus::placeholder,
+#searchForm:focus::placeholder {
+  color: transparent;
+}
+
+.wotkoutHomePage h1 {
+  text-align: center;
+}
+
+.save-workout-btn {
+  width: 60%;
+}
+
+.add-exercise-btn {
+  align-self: center;
+}
+
+.search-div {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+#searchForm {
+  width: 80%;
+  padding: 1rem;
+}
+
+.exercise-form-div {
+  width: 100%;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.img-container p {
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.exercise-description {
+  margin-bottom: 4rem;
+  /* border-bottom: 2px solid grey; */
+  box-shadow: 0 4px 2px -2px rgb(133, 133, 133);
+}
+
+#exerciseDescription {
+  padding-bottom: 5rem;
+  font-size: 1.7rem;
+}
+
+#neutralPullup {
+  max-width: 150px;
+}
+#chestPress {
+  max-width: 200px;
+}
+
+.search-form-separator {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.is-hidden {
+  display: none;
+}
+
+#searchForm::placeholder {
+  font-size: 1.2rem;
+}
+
+.calorie-home-page {
+  width: 100%;
+  text-align: center;
+}
+
+.calorie-tracking-page {
+  text-align: center;
+  width: 100%;
+}
+
+.calorie-inputs {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+#addCalorieItemBtn {
+  width: 20%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-self: center;
+}
+
+.line {
+  padding: 0.1rem;
+  background-color: black;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#tracker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.tracked-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tracker-name,
+.tracker-cal {
+  font-size: 1.5rem;
+}
+
+.tracker-name {
+  width: 60%;
+  text-align: left;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.tracker-cal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#totalCals {
+  font-size: 1.7rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#totalText {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.calorie-history-page {
+  width: 100%;
+  text-align: center;
+}
+
+.cal-log-div {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.calorie-log {
+  font-size: 1.5rem;
+}
+
+.calorie-value {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#dateValCal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cal-headings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#saveCals {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  width: 60%;
+  align-self: center;
+  /* border: transparent; */
+  border-radius: 15px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+}
+
+.calories-saved-page,
+.workout-saved-page,
+.workout-logged-page {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#foodName {
+  margin-bottom: 2rem;
+}
+
+.hms-inputs {
+  border: none;
+  padding: 0.7rem;
+  max-width: 80px;
+  background-color: rgb(255, 255, 255);
+  width: 15%;
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.hms-inputs::-webkit-outer-spin-button,
+.hms-inputs::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.timer-btn {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #000000;
+  color: white;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.timer-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+.timer-btn:hover::before {
+  opacity: 1;
+  width: 200%;
+  height: 200%;
+}
+
+.timer-btn:active {
+  transform: scale(0.95);
+}
+
+.timer-btn:active::before {
+  opacity: 0;
+  transition: none;
+}
+
+.back-and-home {
+  font-size: 3rem;
+  width: 12%;
+  background-color: transparent;
+  border: none;
+  transition: ease-in-out 0.1s;
+}
+
+.back-and-home:hover,
+.back-and-home:active,
+.add-exercise-btn:hover,
+.add-exercise-btn:active {
+  background-color: rgb(230, 230, 230);
+}
+
+.back-btns {
+  justify-content: center;
+  display: flex;
+  gap: 4rem;
+}
+
+.button-stack button {
+  font-family: "Poppins", sans-serif;
+  border-radius: 15px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: #efefef;
+  border-radius: 10px;
+  border-color: #000000;
+}
+
+.back-and-home {
+  margin-bottom: 5rem;
+  border-radius: 15px;
+}
+
+.form {
+  margin-bottom: 0rem;
+}
+
+.settings-page {
+  text-align: center;
+  width: 100%;
+}

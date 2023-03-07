@@ -1,0 +1,1327 @@
+/* start of upper heavy logging css */
+#uphvworkoutNameHeading,
+#lwliworkoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-upper-heavy,
+.exercise-logging-lower-light {
+  width: 80%;
+  margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.uphv-exercise-div,
+.lwli-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uphv-ex-name-div,
+.lwli-ex-name-div {
+  width: 100%;
+}
+
+.uphv-rep-set-weight,
+.lwli-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.uphv-note-div,
+.lwli-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.uphv-note-inputs,
+.lwli-note-inputs {
+  padding: 1rem;
+}
+
+.uphv-rsw-inputs-div,
+.lwli-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.uphv-rsw-inputs,
+.lwli-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.uphv-rsw-inputs:nth-child(3),
+.lwli-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.uphv-ex-name,
+.lwli-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+  border-radius: 3px;
+}
+
+#uphvLogWorkoutButtonDiv,
+#lwliLogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of upper heavy logging css */
+
+/* start of upper light logging css */
+#upliworkoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-upper-light {
+  width: 80%;
+  margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.upli-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upli-ex-name-div {
+  width: 100%;
+}
+
+.upli-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.upli-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.upli-note-inputs {
+  padding: 1rem;
+}
+
+.upli-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.upli-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.upli-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.upli-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#upliLogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of upper light logging css */
+
+/* start of lower heavy logging css */
+#lwhvworkoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-lower-heavy {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.lwhv-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lwhv-ex-name-div {
+  width: 100%;
+}
+
+.lwhv-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.lwhv-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.lwhv-note-inputs {
+  padding: 1rem;
+}
+
+.lwhv-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.lwhv-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.lwhv-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.lwhv-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#lwhvLogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of lower heavy logging css */
+
+/* start of armsshoulders 1 logging css */
+#arsh1workoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-arms-shoulder1 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.arsh1-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arsh1-ex-name-div {
+  width: 100%;
+}
+
+.arsh1-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.arsh1-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.arsh1-note-inputs {
+  padding: 1rem;
+}
+
+.arsh1-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.arsh1-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.arsh1-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.arsh1-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#arsh1LogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of armsshoulders1 logging css */
+
+/* start of armsshoulders 2 logging css */
+#arsh2workoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-arms-shoulder2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.arsh2-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arsh2-ex-name-div {
+  width: 100%;
+}
+
+.arsh2-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.arsh2-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.arsh2-note-inputs {
+  padding: 1rem;
+}
+
+.arsh2-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.arsh2-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.arsh2-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.arsh2-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#arsh2LogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of armsshoulders 2 logging css */
+
+/* start of chest back 1 logging css */
+#chbk1workoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-chest-back1 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.chbk1-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chbk1-ex-name-div {
+  width: 100%;
+}
+
+.chbk1-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.chbk1-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.chbk1-note-inputs {
+  padding: 1rem;
+}
+
+.chbk1-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.chbk1-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.chbk1-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.chbk1-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#chbk1LogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of chest back 1 logging css */
+
+/* start of chest back 2 logging css */
+#chbk2workoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-chest-back2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.chbk2-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chbk2-ex-name-div {
+  width: 100%;
+}
+
+.chbk2-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.chbk2-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.chbk2-note-inputs {
+  padding: 1rem;
+}
+
+.chbk2-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.chbk2-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.chbk2-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.chbk2-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#chbk2LogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of chest back 2 logging css */
+
+/* start of legs 1 logging css */
+#legs1workoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-legs1 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.legs1-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legs1-ex-name-div {
+  width: 100%;
+}
+
+.legs1-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.legs1-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.legs1-note-inputs {
+  padding: 1rem;
+}
+
+.legs1-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.legs1-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.legs1-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.legs1-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#legs1LogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of legs 1 logging css */
+
+/* start of legs 2 logging css */
+#legs2workoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-legs2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.legs2-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legs2-ex-name-div {
+  width: 100%;
+}
+
+.legs2-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.legs2-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.legs2-note-inputs {
+  padding: 1rem;
+}
+
+.legs2-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.legs2-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.legs2-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.legs2-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#legs2LogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of legs 2 logging css */
+
+/* start of squat logging css */
+#squatworkoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-squat {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.squat-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.squat-ex-name-div {
+  width: 100%;
+}
+
+.squat-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.squat-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.squat-note-inputs {
+  padding: 1rem;
+}
+
+.squat-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.squat-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.squat-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.squat-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#squatLogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of squat logging css */
+
+/* start of bench logging css */
+#benchworkoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-bench {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.bench-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bench-ex-name-div {
+  width: 100%;
+}
+
+.bench-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bench-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.bench-note-inputs {
+  padding: 1rem;
+}
+
+.bench-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.bench-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.bench-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.bench-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#benchLogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of bench logging css */
+
+/* start of deadlift logging css */
+#deadliftworkoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-deadlift {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.deadlift-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deadlift-ex-name-div {
+  width: 100%;
+}
+
+.deadlift-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.deadlift-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.deadlift-note-inputs {
+  padding: 1rem;
+}
+
+.deadlift-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.deadlift-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.deadlift-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.deadlift-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#deadliftLogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of deadlift logging css */
+
+/* start of calupper 1 logging css */
+#calupr1workoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-cal-upper1 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.calupr1-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calupr1-ex-name-div {
+  width: 100%;
+}
+
+.calupr1-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.calupr1-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.calupr1-note-inputs {
+  padding: 1rem;
+}
+
+.calupr1-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.calupr1-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.calupr1-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.calupr1-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#calupr1LogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of calupper 1 logging css */
+
+/* start of cal lower logging css */
+#callwrworkoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-cal-lower {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.callwr-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.callwr-ex-name-div {
+  width: 100%;
+}
+
+.callwr-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.callwr-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.callwr-note-inputs {
+  padding: 1rem;
+}
+
+.callwr-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.callwr-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.callwr-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.callwr-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#callwrLogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of cal lower  logging css */
+
+/* start of calupper 2 logging css */
+#calupr2workoutNameHeading {
+  text-align: center;
+}
+
+.exercise-logging-cal-upper2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.calupr2-exercise-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calupr2-ex-name-div {
+  width: 100%;
+}
+
+.calupr2-rep-set-weight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.calupr2-note-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.calupr2-note-inputs {
+  padding: 1rem;
+}
+
+.calupr2-rsw-inputs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.calupr2-rsw-inputs {
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 80px;
+}
+
+.calupr2-rsw-inputs:nth-child(3) {
+  width: 25%;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.calupr2-ex-name {
+  padding: 1rem;
+  width: 80%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: line;
+  background-color: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+#calupr2LogWorkoutButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* end of calupper 2 logging css */
